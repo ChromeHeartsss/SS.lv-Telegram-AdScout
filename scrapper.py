@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import httpx
 from telegram.ext import Application
 
-TOKEN = '7270619727:AAGSJp4BCWNRWvGSNb9oCCRIjyZPU2P7eKs'
-CHAT_ID = '-4238324052'
+TOKEN = ''
+CHAT_ID = ''
 app = Application.builder().token(TOKEN).build()
 
 ignored_models = {'iPhone 4', 'iPhone 5', 'iPhone 6', 'iPhone 6s', 'iPhone 7', 'iPhone 8'}
